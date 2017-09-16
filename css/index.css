@@ -73,6 +73,18 @@ section {
     width: 150px;
     background-color: #FF0000;
     font-size: 18px;
+    z-index: 200;
+    height: 500px;
+}
+.sidebar-nav article {
+    margin: 9px 0;
+}
+.sidebar-nav article a {
+    margin: 0 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
 }
 .broadwise-nav {
     display: inline-block;
