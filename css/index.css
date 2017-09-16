@@ -1,0 +1,83 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F0F0F0;
+}
+header {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.head-right {
+    display: inline-block;
+    float: right;
+    margin-right: 85px;
+}
+.head-left {
+    margin-left: 85px;
+}
+nav {
+    padding-top: 30px;
+    height: 129px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+nav .logo {
+    display: inline-block;
+    margin: 0 85px;
+}
+nav .logo a {
+    display: block;
+    font-size: 40px;
+    vertical-align: sub;
+    color: #C8A000;
+}
+.search {
+    display: inline-block;
+}
+section {
+    background-color: #FF0000;
+    margin: 5px 0;
+}
+.search i {
+    margin: 0 5px;
+}
+.search span {
+    margin: 0 3px;
+}
+.search span:last-child {
+    float: right;
+}
+.search input {
+    width: 505px;
+    height: 30px;
+    margin-left: 3px;
+    vertical-align: baseline;
+    border: 0px;
+}
+.search button {
+    margin-top: 5px;
+    width: 122px;
+    height: 34px;
+    background-color: #FF0000;
+    border: 0px ;
+    vertical-align: sub;
+}
+*:focus {
+    outline: 0;
+}
+.sidebar-nav {
+    display: inline-block;
+    float: left;
+    margin-left: 80px;
+    width: 150px;
+    background-color: #FF0000;
+    font-size: 18px;
+}
+.broadwise-nav {
+    display: inline-block;
+    font-size: 18px;
+}
+.broadwise-nav span {
+    margin: 0 5px;
+}
