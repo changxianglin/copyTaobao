@@ -7,6 +7,10 @@ header {
     height: 45px;
     line-height: 45px;
     font-size: 14px;
+    overflow: hidden;
+}
+.header::after {
+    clear: both;
 }
 .head-right {
     display: inline-block;
