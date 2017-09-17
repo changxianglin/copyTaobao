@@ -1,0 +1,18 @@
+.first-main {
+}
+.left-bigarea {
+    display: inline-block;
+    width: 690px;
+    height: 512px;
+    margin: 14px 14px 0 14px;
+    background-color: red;
+}
+.right-smallarea {
+    display: inline-block;
+    float: right;
+    width: 290px;
+    height: 2080px;
+    margin-right: 110px;
+    margin-top: 14px;
+    background-color: blue;
+}
